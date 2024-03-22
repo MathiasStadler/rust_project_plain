@@ -1,4 +1,8 @@
 # Custom Dictionary Words
 clippy
+errtrace
+FUNCNAME
+println
+rgba
 rustup
 shfmt

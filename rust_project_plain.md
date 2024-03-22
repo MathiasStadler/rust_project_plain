@@ -55,16 +55,23 @@ echo $RUST_PROJECT
 
 [FROM HERE](https://stackoverflow.com/questions/3601515/how-to-check-if-a-variable-is-set-in-bash)
 
-// bash script trap
-// https://www.redhat.com/sysadmin/bash-error-handling
+<div style="background-color:rgba(250, 230, 7, 1);">
+> bash script trap
+> https://www.redhat.com/sysadmin/bash-error-handling
+> https://opensource.com/article/20/6/bash-trap
+
+</div>
+
+<div style="background-color:rgba(250, 230, 7, 1);">
+> this is a note 1
+>
+> the is is still the note
+</div>
+
 ```bash
 
-<<EOF>> check_parameter_is_set.sh cat
-set -o errtrace
-trap "echo ERROR: There was an error in ${FUNCNAME-main context}, details to follow" ERR
-rust_project = \${RUST_PROJECT:?word};
-println("$rust_project);
-EOF
+
+
 
 ```
 
@@ -113,6 +120,5 @@ shfmt  -i 4 -w -s tmp_file.sh
 ```
 
 [toc](#rust-project-plain-template)
-
 
 [toc](#rust-project-plain-template)
