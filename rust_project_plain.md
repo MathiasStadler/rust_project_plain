@@ -61,7 +61,8 @@ echo $RUST_PROJECT
 cd /tmp
 <<EOF>> check_project_dir_if_not_available.sh cat
 if [[ -d "${RUST_PROJECT}" && ! -L "${RUST_PROJECT}" ]] ; then
-echo "project dir ${RUST_PROJECT} available. =>  Delete it or rename your project !!!"; 
+echo "project dir ${RUST_PROJECT} available. "; 
+echo " =>  Delete it or rename your project !!!"; 
 else 
 echo "Directory not available";
 fi
@@ -91,6 +92,5 @@ apt install shfmt
 shfmt  -i 4 -w -s tmp_file.sh
 
 ```
-
 
 [top](#rust-project-plain-template)

@@ -1,17 +1,6 @@
-
-
 {
     "MD033": {
         "allowed_elements": [
-            "nobr",
-            "sup",
-            "a"
-        ]
-    },
-    "MD034": {
-        "allowed_elements": [
-            "nobr",
-            "sup",
             "a"
         ]
     }
