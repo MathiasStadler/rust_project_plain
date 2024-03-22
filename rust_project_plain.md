@@ -49,9 +49,24 @@ echo $RUST_PROJECT
 
 ```
 
+[toc](#rust-project-plain-template)
+
 #### check variable is set
 
 [FROM HERE](https://stackoverflow.com/questions/3601515/how-to-check-if-a-variable-is-set-in-bash)
+
+// bash script trap
+// https://www.redhat.com/sysadmin/bash-error-handling
+```bash
+
+<<EOF>> check_parameter_is_set.sh cat
+set -o errtrace
+trap "echo ERROR: There was an error in ${FUNCNAME-main context}, details to follow" ERR
+rust_project = \${RUST_PROJECT:?word};
+println("$rust_project);
+EOF
+
+```
 
 #### check project is **NOT** available
 
@@ -70,6 +85,8 @@ EOF
 
 ```
 
+[toc](#rust-project-plain-template)
+
 ### things you need
 
 #### shfmt
@@ -80,6 +97,8 @@ EOF
 apt update && \
 apt install shfmt
 ```
+
+[toc](#rust-project-plain-template)
 
 ##### apply this tool
 
@@ -93,4 +112,7 @@ shfmt  -i 4 -w -s tmp_file.sh
 
 ```
 
-[top](#rust-project-plain-template)
+[toc](#rust-project-plain-template)
+
+
+[toc](#rust-project-plain-template)
