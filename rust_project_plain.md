@@ -59,6 +59,18 @@ echo $RUST_PROJECT
 > bash script trap
 > https://www.redhat.com/sysadmin/bash-error-handling
 > https://opensource.com/article/20/6/bash-trap
+> https://citizen428.net/blog/bash-error-handling-with-trap/
+
+</div>
+
+<div style="background-color:rgba(250, 230, 7, 1);">
+   >  -E (-o errtrace): Ensures that ERR traps (see below) get inherited by
+     functions, command substitutions, and subshell environments.
+    > -u (-o nounset): Treats unset variables as errors.
+    > -o pipefail: normally Bash pipelines only return the exit code of 
+    the last command. This option will propagate intermediate errors.
+
+>> set -Eeuo pipefail
 
 </div>
 

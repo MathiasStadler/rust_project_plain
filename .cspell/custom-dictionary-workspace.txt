@@ -1,8 +1,12 @@
 # Custom Dictionary Words
 clippy
+Eeuo
 errtrace
 FUNCNAME
+nounset
+pipefail
 println
 rgba
 rustup
 shfmt
+subshell
