@@ -46,7 +46,7 @@ EOF
 ```bash
 <<EOF> test_bash_trap_1.sh cat
 #!/bin/bash
-set 
+set -Eeuo pipefail
 _self="\${0##*/}"
 echo "\$_self is started";
 echo "Hello from \$_self";
