@@ -25,7 +25,7 @@ shfmt -w -i 4 test_bash_trap_1.sh
 ## script echo script name
 
 ```bash
-<<EOF>> test_bash_trap_1.sh cat
+<<EOF> test_bash_trap_1.sh cat
 #!/bin/bash
 _self="\${0##*/}"
 echo "\$_self is started";
