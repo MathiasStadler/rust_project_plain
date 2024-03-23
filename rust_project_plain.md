@@ -37,6 +37,8 @@ PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-poli
 UBUNTU_CODENAME=jammy
 ```
 
+[toc](#rust-project-plain-template)
+
 ## init
 
 ### set and check env variable
@@ -67,7 +69,7 @@ echo $RUST_PROJECT
    >  -E (-o errtrace): Ensures that ERR traps (see below) get inherited by
      functions, command substitutions, and subshell environments.
     > -u (-o nounset): Treats unset variables as errors.
-    > -o pipefail: normally Bash pipelines only return the exit code of 
+    > -o pipefail: normally Bash pipelines only return the exit code of
     the last command. This option will propagate intermediate errors.
 
 >> set -Eeuo pipefail
