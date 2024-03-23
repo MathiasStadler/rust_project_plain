@@ -30,7 +30,13 @@
 
 > [!NOTE]  
 > Highlights information that users should take into account, even when skimming.
+
+- Next
+
 > [!IMPORTANT]  
 > Crucial information necessary for users to succeed.
+
+- Next
+
 > [!WARNING]  
 > Critical content demanding immediate user attention due to potential risks.
