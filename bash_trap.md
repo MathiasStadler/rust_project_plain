@@ -40,3 +40,23 @@ echo "format  => shfmt -w -i 4 ./\$_self";
 exit 0;
 EOF
 ```
+
+## script exit on error
+
+```bash
+<<EOF> test_bash_trap_1.sh cat
+#!/bin/bash
+set 
+_self="\${0##*/}"
+echo "\$_self is started";
+echo "Hello from \$_self";
+echo "command arg=> \$@";
+echo "\$_self is end";
+
+echo "execute \$0";
+echo "execute \${0##*/}";
+echo "execute => sh +x ./\$_self";
+echo "format  => shfmt -w -i 4 ./\$_self";
+exit 0;
+EOF
+```
