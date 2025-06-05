@@ -1,0 +1,1 @@
+/var/trapapa_vscode_workspace/rust_project_plain/rust_project_plain/target/debug/rust_project_plain: /var/trapapa_vscode_workspace/rust_project_plain/rust_project_plain/src/main.rs

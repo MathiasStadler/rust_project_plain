@@ -1,4 +1,5 @@
 # Custom Dictionary Words
+chrono
 clippy
 Eeuo
 errtrace
